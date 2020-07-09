@@ -1,5 +1,24 @@
 # Getting Started with Terraform
 
+In this tutorial, you'll learn how to:
+* Install Terraform 
+* Create and destroy your first Terraform resources
+
+## Prerequisites
+
+Example:
+Vault version 1.2.0 or later
+Kubernetes comand-line interface (CLI)
+Minikube
+
+
+## Step 1: Install Teraform
+
+Short description of this step.
+If applicable, demonstrate the steps using CLI, API, and UI.
+
+
+
 Terraform is the most popular langauge for defining and provisioning infrastructure as code (IaC).
 
 To install Terraform, simply visit [Terraform.io](https://www.terraform.io/downloads.html) and download the compressed binary application executable file deliverable for your platform, machine or environment on which you like to run code and do development.
