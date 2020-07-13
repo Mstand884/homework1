@@ -17,11 +17,13 @@ After downloading Terraform, unzip the package. Terraform runs as a single binar
 
 Have your terminal print a colon-separated list of locations in your `PATH`.
 
-```$ echo $PATH
+```
+$ echo $PATH
 ```
 Move the terraform binary to one of the listed locations. The below command assumes that the binary is currently in your downloads folder and that your PATH includes /usr/local/bin, but you can customize it if your locations are different.
 
-```$ mv ~/Downloads/terraform /usr/local/bin/terraform
+```
+$ mv ~/Downloads/terraform /usr/local/bin/terraform
 ```
 
 ## Step 2: Verify installation
