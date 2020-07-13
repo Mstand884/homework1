@@ -99,14 +99,14 @@ The command will take a few minutes to run and will display a message indicating
 
 ![resource created](images/terraform-docker-nginx.png)
 
-To stop the container, run terraform destroy.
+To stop the container, run `terraform destroy`.
 
 ```
 shell
 $ terraform destroy
 ```
 
-A message at the bottom of the output will ask for confirmation. Type `yes` and hit ENTER. Terraform will destroy the resources it had created earlier.
+Type `yes` at the confirmation prompt, and hit ENTER. Terraform just destroyed the resources created earlier.
 
 ## Next Steps
 
