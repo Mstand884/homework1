@@ -26,7 +26,7 @@ Move the terraform binary to one of the listed locations. The below command assu
 $ mv ~/Downloads/terraform /usr/local/bin/terraform
 ```
 
-## Step 2: Verify installation
+## Step 2: Verify Installation
 
 To verify the installation worked, open a new terminal session to view Terraform's available subcommands.
 
@@ -47,7 +47,7 @@ Add any subcommand to `terraform -help` to learn more about what it does and ava
 terraform -help plan
 ```
 
-## Step 3: Quick start tutorial
+## Step 3: Quick Start Tutorial
 
 With Terraform installed, you can provision an NGINX server in less than a minute using Docker on Mac, Windows, or Linux.
 
