@@ -30,7 +30,8 @@ $ mv ~/Downloads/terraform /usr/local/bin/terraform
 
 To verify the installation worked, open a new terminal session to view Terraform's available subcommands.
 
-```$ terraform -help
+```
+$ terraform -help
 Usage: terraform [-version] [-help] <command> [args]
 
 The available commands for execution are listed below.
@@ -42,7 +43,8 @@ other commands, please read the help and docs before usage.
 ```
 Add any subcommand to `terraform -help` to learn more about what it does and available options.
 
-```terraform -help plan
+```
+terraform -help plan
 ```
 
 ## Step 3: Quick start tutorial
@@ -51,17 +53,20 @@ With Terraform installed, you can provision an NGINX server in less than a minut
 
 If you have already installed Docker from the Prerequisites section of this tutorial, you can start Docker Desktop.
 
-```$ open -a Docker
+```
+$ open -a Docker
 ```
 
 Create a directory named `terraform-docker-demo`.
 
-```$ mkdir terraform-docker-demo && cd $_
+```
+$ mkdir terraform-docker-demo && cd $_
 ```
 
 Paste the following Terraform configuration into a file and name it main.tf.
 
-```resource "docker_image" "nginx" {
+```
+resource "docker_image" "nginx" {
   name         = "nginx:latest"
   keep_locally = false
 }
@@ -78,13 +83,15 @@ resource "docker_container" "nginx" {
 
 Initialize Terraform with the `init` command. The AWS provider will be installed.
 
-```shell
+```
+shell
 $ terraform init
 ```
 
 Check for any errors. If it ran successfully, provision the resource with the `apply` command.
 
-```shell
+```
+shell
 $ terraform apply
 ```
 
@@ -94,7 +101,8 @@ The command will take a few minutes to run and will display a message indicating
 
 To stop the container, run terraform destroy.
 
-```shell
+```
+shell
 $ terraform destroy
 ```
 
