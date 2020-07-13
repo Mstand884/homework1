@@ -43,7 +43,7 @@ Add any subcommand to `terraform -help` to learn more about what it does and ava
 ```terraform -help plan
 ```
 
-## Step 3: Quick Start tutorial
+## Step 3: Quick start tutorial
 
 With Terraform installed, you can provision an NGINX server in less than a minute using Docker on Mac, Windows, or Linux.
 
